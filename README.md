@@ -1,3 +1,7 @@
+node v20.11.1에서 개발.
+
+
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
