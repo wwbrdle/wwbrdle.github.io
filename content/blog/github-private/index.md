@@ -17,9 +17,29 @@ https://www.google.com/search?client=safari&rls=en&q=%EB%AC%B4%EB%A3%8C%EB%8F%84
 https://내도메인.한국/page/domain_conf_view.php?id=2294892
 
 public리포 받고 push안될때
+아래와 같이 % vi ~/.ssh/config를 설정
+Host github-brlyle
+Hostname github.com
+User git
+IdentityFile ~/.ssh/brlyle.ww
+그담에 아래같이 치면됨. git config user.name같은거 필요없음
 git remote set-url origin git@github-brlyle:brlyle/brlyle.github.io.git
-이거만하면되나?
+
 로컬에서 깃헙 여러유저 사용하기도 해야함
+
+
+gmocoin-tools
+仮想通貨移動履歴の未確認検索
+decimal.js가 안됐었던 이유
+npm의 패키지로서 존재하지만 패키지가 업뎃되어서 동작하지 않게 되는것을 방지하기 위해
+정적파일로서 불러오기 위해서
+```html
+<script
+type="text/javascript"
+src="/static/js/decimal.js"></script>
+```
+이렇게 설정해두고 public에 저장해서 쓰면된다.
+nextjs/gmocoin-tools/public/static/js/decimal.js
 
 This is my first post on my new fake blog! How exciting!
 
