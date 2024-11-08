@@ -62,6 +62,28 @@ if (inIndexFrom != undefined)는 inIndexFrom이 null이거나 undefined일 때�
 따라서 구문을 단순화하려는 경우 if (inIndexFrom != undefined)로 변경해도 무방합니다.
 ```
 
+gmocoin-tools
+仮想通貨移動履歴の未確認検索
+소소한 지식
+const안에서는 hook을 사용할 수 없다
+생성자 함수는 JavaScript에서 새로운 객체를 생성하고, 그 객체에 초기값을 설정하는 특별한 유형의 함수입니다.
+생성자 함수는 new 키워드와 함께 호출되어 새로운 객체를 생성하고, 그 객체에 초기값을 설정하는 역할을 합니다.
+this가 여기서 사용됨
+```javascript
+// 생성자 함수 예시
+function Person(name, age) {
+    this.name = name;
+    this.age = age;
+}
+
+const person1 = new Person("Alice", 30);
+console.log(person1); // { name: "Alice", age: 30 }
+```
+
+
+
+
+
 This is my first post on my new fake blog! How exciting!
 
 I'm sure I'll write a lot more interesting things in the future.
