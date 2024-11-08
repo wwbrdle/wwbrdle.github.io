@@ -9,9 +9,55 @@ Next.js window객체가 없다고할때
 <a href="https://www.google.com/search?client=safari&#x26;rls=en&#x26;q=%EB%AC%B4%EB%A3%8C%EB%8F%84%EB%A9%94%EC%9D%B8&#x26;ie=UTF-8&#x26;oe=UTF-8#fpstate=ive&#x26;vld=cid:0096fcca,vid:-MbyMN9dpPw,st:0">https://www.google.com/search?client=safari&#x26;rls=en&#x26;q=%EB%AC%B4%EB%A3%8C%EB%8F%84%EB%A9%94%EC%9D%B8&#x26;ie=UTF-8&#x26;oe=UTF-8#fpstate=ive&#x26;vld=cid:0096fcca,vid:-MbyMN9dpPw,st:0</a>
 <a href="https://%EB%82%B4%EB%8F%84%EB%A9%94%EC%9D%B8.%ED%95%9C%EA%B5%AD/page/domain_conf_view.php?id=2294892">https://내도메인.한국/page/domain_conf_view.php?id=2294892</a></p>
 <p>public리포 받고 push안될때
-git remote set-url origin git@github-brlyle:brlyle/brlyle.github.io.git
-이거만하면되나?
-로컬에서 깃헙 여러유저 사용하기도 해야함</p>
+아래와 같이 % vi ~/.ssh/config를 설정
+Host github-brlyle
+Hostname github.com
+User git
+IdentityFile ~/.ssh/brlyle.ww
+그담에 아래같이 치면됨. git config user.name같은거 필요없음
+git remote set-url origin git@github-brlyle:brlyle/brlyle.github.io.git</p>
+<p>로컬에서 깃헙 여러유저 사용하기도 해야함</p>
+<p>gmocoin-tools
+仮想通貨移動履歴の未確認検索
+decimal.js가 안됐었던 이유
+npm의 패키지로서 존재하지만 패키지가 업뎃되어서 동작하지 않게 되는것을 방지하기 위해
+정적파일로서 불러오기 위해서</p>
+<div class="gatsby-highlight" data-language="html"><pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span>
+<span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/javascript<span class="token punctuation">"</span></span>
+<span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/static/js/decimal.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span></code></pre></div>
+<p>이렇게 설정해두고 public에 저장해서 쓰면된다.
+nextjs/gmocoin-tools/public/static/js/decimal.js</p>
+<p>gmocoin-tools
+仮想通貨移動履歴の未確認検索
+Goland의 Simplify가 알려준거임. 검증은 gpt한테. 아래와 같이 물어봤을때</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">if (inIndexFrom !== undefined &amp;&amp; inIndexFrom != null) {
+이거는 아래와 같이 바꿔도 문제없니?
+if (inIndexFrom != undefined) {</code></pre></div>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">네, if (inIndexFrom !== undefined &amp;&amp; inIndexFrom != null)를 if (inIndexFrom != undefined)로 바꿔도 동일하게 작동합니다.
+
+차이점 설명
+!=와 ==는 느슨한 동등 연산자로, 두 값이 타입이 다르더라도 값이 같다고 판단하면 true를 반환합니다.
+!==와 ===는 엄격한 동등 연산자로, 타입이 다르면 false를 반환합니다.
+if (inIndexFrom != undefined)는 undefined와 null 모두를 포함하여 검사합니다. 이 구문은 inIndexFrom이 null이나 undefined가 아닐 경우에만 참입니다.
+
+정리
+if (inIndexFrom != undefined)는 inIndexFrom이 null이거나 undefined일 때를 모두 확인하기 때문에, 원래 코드와 동일하게 동작합니다.
+따라서 구문을 단순화하려는 경우 if (inIndexFrom != undefined)로 변경해도 무방합니다.</code></pre></div>
+<p>gmocoin-tools
+仮想通貨移動履歴の未確認検索
+소소한 지식
+const안에서는 hook을 사용할 수 없다
+생성자 함수는 JavaScript에서 새로운 객체를 생성하고, 그 객체에 초기값을 설정하는 특별한 유형의 함수입니다.
+생성자 함수는 new 키워드와 함께 호출되어 새로운 객체를 생성하고, 그 객체에 초기값을 설정하는 역할을 합니다.
+this가 여기서 사용됨</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token comment">// 생성자 함수 예시</span>
+<span class="token keyword">function</span> <span class="token function">Person</span><span class="token punctuation">(</span><span class="token parameter">name<span class="token punctuation">,</span> age</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name<span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>age <span class="token operator">=</span> age<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> person1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Person</span><span class="token punctuation">(</span><span class="token string">"Alice"</span><span class="token punctuation">,</span> <span class="token number">30</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>person1<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// { name: "Alice", age: 30 }</span></code></pre></div>
 <p>This is my first post on my new fake blog! How exciting!</p>
 <p>I'm sure I'll write a lot more interesting things in the future.</p>
 <p>Oh, and here's a great quote from this Wikipedia on
@@ -236,4 +282,4 @@ __double underscores__</code></pre></div>
           >
             window.___chunkMapping="{\"app\":[\"/app-16d89fa4b087304c2d2f.js\"],\"component---src-pages-404-js\":[\"/component---src-pages-404-js-c76f759449b7ac2e3392.js\"],\"component---src-pages-index-js\":[\"/component---src-pages-index-js-350e9b4aa85349fee1e3.js\"],\"component---src-pages-using-typescript-tsx\":[\"/component---src-pages-using-typescript-tsx-37a4dc076ea4bf24c0ee.js\"],\"component---src-templates-blog-post-js\":[\"/component---src-templates-blog-post-js-c66e12eb4b10a9ee344e.js\"]}";
           </script>
-        <script>window.___webpackCompilationHash="bed2faab484a3ab7863c";</script><script src="/webpack-runtime-3af372eca5df7413faad.js" async></script><script src="/framework-195f9a31e5a4e6cebf51.js" async></script><script src="/app-16d89fa4b087304c2d2f.js" async></script><!-- slice-end id="_gatsby-scripts-1" --></body></html>
+        <script>window.___webpackCompilationHash="a1d50f145436ba4ca1e0";</script><script src="/webpack-runtime-9bf6fec2dbcc268f51c9.js" async></script><script src="/framework-195f9a31e5a4e6cebf51.js" async></script><script src="/app-16d89fa4b087304c2d2f.js" async></script><!-- slice-end id="_gatsby-scripts-1" --></body></html>
