@@ -41,6 +41,27 @@ src="/static/js/decimal.js"></script>
 이렇게 설정해두고 public에 저장해서 쓰면된다.
 nextjs/gmocoin-tools/public/static/js/decimal.js
 
+gmocoin-tools
+仮想通貨移動履歴の未確認検索
+Goland의 Simplify가 알려준거임. 검증은 gpt한테. 아래와 같이 물어봤을때
+```
+if (inIndexFrom !== undefined && inIndexFrom != null) {
+이거는 아래와 같이 바꿔도 문제없니?
+if (inIndexFrom != undefined) {
+```
+```
+네, if (inIndexFrom !== undefined && inIndexFrom != null)를 if (inIndexFrom != undefined)로 바꿔도 동일하게 작동합니다.
+
+차이점 설명
+!=와 ==는 느슨한 동등 연산자로, 두 값이 타입이 다르더라도 값이 같다고 판단하면 true를 반환합니다.
+!==와 ===는 엄격한 동등 연산자로, 타입이 다르면 false를 반환합니다.
+if (inIndexFrom != undefined)는 undefined와 null 모두를 포함하여 검사합니다. 이 구문은 inIndexFrom이 null이나 undefined가 아닐 경우에만 참입니다.
+
+정리
+if (inIndexFrom != undefined)는 inIndexFrom이 null이거나 undefined일 때를 모두 확인하기 때문에, 원래 코드와 동일하게 동작합니다.
+따라서 구문을 단순화하려는 경우 if (inIndexFrom != undefined)로 변경해도 무방합니다.
+```
+
 This is my first post on my new fake blog! How exciting!
 
 I'm sure I'll write a lot more interesting things in the future.
