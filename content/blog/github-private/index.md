@@ -15,6 +15,9 @@ https://velog.io/@taese0ng/Next.js-window객체가-없다고할때
 https://www.google.com/search?client=safari&rls=en&q=%EB%AC%B4%EB%A3%8C%EB%8F%84%EB%A9%94%EC%9D%B8&ie=UTF-8&oe=UTF-8#fpstate=ive&vld=cid:0096fcca,vid:-MbyMN9dpPw,st:0
 https://내도메인.한국/page/domain_conf_view.php?id=2294892
 
+public리포 받고 push안될때
+git remote set-url origin git@github-brlyle:brlyle/brlyle.github.io.git
+이거만하면되나?
 로컬에서 깃헙 여러유저 사용하기도 해야함
 
 This is my first post on my new fake blog! How exciting!
