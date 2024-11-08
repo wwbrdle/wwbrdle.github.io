@@ -1,10 +1,11 @@
 ---
-title: github private 저장소 클론 안받아질때!
+title: github private
 date: "2015-05-01T22:12:03.284Z"
 description: "Hello World"
 ---
 
 인터뷰할때..
+저장소 클론 안받아질때!
 참조: https://tmjb.tistory.com/83
 
 또하나
