@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 08 Nov 2024 07:06:38 GMT</lastBuildDate><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 08 Nov 2024 07:42:12 GMT</lastBuildDate><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/new-beginnings/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/new-beginnings/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
 right at the coast of the Semantics, a large language ocean. A small river named
@@ -314,11 +314,12 @@ __double underscores__&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;This paragraph has some &lt;code class=&quot;language-text&quot;&gt;code&lt;/code&gt; in it.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;This paragraph has some `code` in it.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;img src=&quot;https://via.placeholder.com/200x50&quot; alt=&quot;Alt Text&quot; title=&quot;Image Title&quot;&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![Alt Text](https://via.placeholder.com/200x50 &quot;Image Title&quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[github private 저장소 클론 안받아질때!]]></title><description><![CDATA[인터뷰할때..
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![Alt Text](https://via.placeholder.com/200x50 &quot;Image Title&quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[github private]]></title><description><![CDATA[인터뷰할때..
+저장소 클론 안받아질때!
 참조: https://tmjb.tistory.com/83 또하나
 Next.js window객체가 없다고할때
-https://velog.io/@taese0ng/Next.js-window객체가-없다고할때 무료도메인사용법
-https://www…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/github-private/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/github-private/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;인터뷰할때..
+https://velog.io/@taese0ng/Next.js-window…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/github-private/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/github-private/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;인터뷰할때..
+저장소 클론 안받아질때!
 참조: &lt;a href=&quot;https://tmjb.tistory.com/83&quot;&gt;https://tmjb.tistory.com/83&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;또하나
 Next.js window객체가 없다고할때
@@ -326,7 +327,10 @@ Next.js window객체가 없다고할때
 &lt;p&gt;무료도메인사용법
 &lt;a href=&quot;https://www.google.com/search?client=safari&amp;#x26;rls=en&amp;#x26;q=%EB%AC%B4%EB%A3%8C%EB%8F%84%EB%A9%94%EC%9D%B8&amp;#x26;ie=UTF-8&amp;#x26;oe=UTF-8#fpstate=ive&amp;#x26;vld=cid:0096fcca,vid:-MbyMN9dpPw,st:0&quot;&gt;https://www.google.com/search?client=safari&amp;#x26;rls=en&amp;#x26;q=%EB%AC%B4%EB%A3%8C%EB%8F%84%EB%A9%94%EC%9D%B8&amp;#x26;ie=UTF-8&amp;#x26;oe=UTF-8#fpstate=ive&amp;#x26;vld=cid:0096fcca,vid:-MbyMN9dpPw,st:0&lt;/a&gt;
 &lt;a href=&quot;https://%EB%82%B4%EB%8F%84%EB%A9%94%EC%9D%B8.%ED%95%9C%EA%B5%AD/page/domain_conf_view.php?id=2294892&quot;&gt;https://내도메인.한국/page/domain_conf_view.php?id=2294892&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;로컬에서 깃헙 여러유저 사용하기도 해야함&lt;/p&gt;
+&lt;p&gt;public리포 받고 push안될때
+git remote set-url origin git@github-brlyle:brlyle/brlyle.github.io.git
+이거만하면되나?
+로컬에서 깃헙 여러유저 사용하기도 해야함&lt;/p&gt;
 &lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
 &lt;p&gt;I&apos;m sure I&apos;ll write a lot more interesting things in the future.&lt;/p&gt;
 &lt;p&gt;Oh, and here&apos;s a great quote from this Wikipedia on
