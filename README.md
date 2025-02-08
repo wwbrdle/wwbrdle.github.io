@@ -1,5 +1,6 @@
 node v20.11.1에서 개발. 
-
+배포는 ①% npm run build
+②% npm run deploy
 
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
