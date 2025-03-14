@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 15 Feb 2025 08:03:03 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[11 Coding Patterns for Interviews: Java Examples Here are easy Java coding examples for each of the 11 essential coding patterns for…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/coding-patterns-java/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/coding-patterns-java/</guid><content:encoded>&lt;h1&gt;11 Coding Patterns for Interviews: Java Examples&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 14 Mar 2025 02:55:57 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[11 Coding Patterns for Interviews: Java Examples Here are easy Java coding examples for each of the 11 essential coding patterns for…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/coding-patterns-java/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/coding-patterns-java/</guid><content:encoded>&lt;h1&gt;11 Coding Patterns for Interviews: Java Examples&lt;/h1&gt;
 &lt;p&gt;Here are easy Java coding examples for each of the 11 essential coding patterns for interviews:&lt;/p&gt;
 &lt;h2&gt;1. Two Pointers&lt;/h2&gt;
 &lt;p&gt;Imagine having two runners on a track. You can solve certain problems by moving these runners strategically:&lt;/p&gt;
@@ -230,7 +230,114 @@
 &lt;h2&gt;8. BFS&lt;/h2&gt;
 &lt;h2&gt;9. Hash Maps&lt;/h2&gt;
 &lt;h2&gt;10. Fast and Slow pointer&lt;/h2&gt;
-&lt;h2&gt;11. Merge Interval&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
+&lt;h2&gt;11. Merge Interval&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[Algorithms]]></title><description><![CDATA[제…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/algorithms/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/algorithms/</guid><pubDate>Wed, 12 Mar 2025 22:40:32 GMT</pubDate><content:encoded>&lt;h1&gt;제1장 알고리즘 소개&lt;/h1&gt;
+&lt;p&gt;이 장에서는 우선 알고리즘의 정의와 특성을 살펴보고, 앞으로 교재에서 다룰 다양한 알고리즘을 설계하고 분석하는 데 꼭 필요한 기본적인 내용으로 알고리즘의 대표적인 설계기법과 알고리즘의 성능을 분석하고 표기하는 방법을 중심으로 학습한다.&lt;/p&gt;
+&lt;h2&gt;학습목표&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;알고리즘의 중요성과 정의 및 특성을 이해할 수 있다.&lt;/li&gt;
+&lt;li&gt;알고리즘을 설계하는 주요 기법의 종류와 개념을 이해하고 설명할 수 있다.&lt;/li&gt;
+&lt;li&gt;알고리즘을 분석하는 방법과 점근성능의 표기법을 이해하고 적용할 수 있다.&lt;/li&gt;
+&lt;li&gt;순환 알고리즘의 점화 관계를 이해할 수 있다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;주요용어&lt;/h2&gt;
+&lt;p&gt;알고리즘 / 욕심쟁이 방법 / 거스름돈 문제 / 배낭 문제 / 분할정복 방법 / 동적 프로그래밍 방법 / 시간 복잡도 / 공간 복잡도 / 점근성능 / O-표기 / Ω-표기 / Θ-표기 / 점근적 상한 / 점근적 하한 / 순환 알고리즘 / 점화식 / 폐쇄형&lt;/p&gt;
+&lt;h1&gt;1.1 기본개념&lt;/h1&gt;
+&lt;h2&gt;예제 1.1&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;주어진 배열에서 가장 작은 값을 찾는 문제의 알고리즘을 작성하시오.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A[] = {80, 70, 40, 20, 30, 10, 60, 50}&lt;/p&gt;
+&lt;h2&gt;풀이&lt;/h2&gt;
+&lt;p&gt;주어진 데이터에 대해서 최솟값(또는 최댓값)을 찾는 기본적인 방법은 각 숫자를 차례대로 하나씩 모두 비교하는 것이다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;단계 1. 입력 배열 중에서 첫번째 데이터를 최솟값으로 지정한다.  
+단계 2. 배열에서 다음 숫자를 읽고, 이것과 저장된 최솟값을 비교한다.  
+단계 3. 비교 후 더 작은 숫자를 최솟값으로 다시 지정한다.  
+단계 4. 배열에 처리할 데이터가 남아 있으면 [단계 2]로 간다.
+단계 5. 저장된 최솟값을 결과로 출력한다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;예제 1.2&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;주어진 그래프에 대해 임의의 한 점에서 출발해서 모든 선분을 한번씩만 지나는 경로의 존재 여부를 확인하시오. 단 각 점은 여러번 방문해도 무관하다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;풀이&lt;/h2&gt;
+&lt;p&gt;그래프의 모든 간선을 오직 한번씩만 지나가는 경로를 찾는 문제를 오일러 경로(Eulerian path) 문제라고 한다.&lt;br&gt;
+오일러 경로의 존재 여부를 확인하는 규칙은 다음과 같다. 각 정점의 차수(해당 정점에 부수된 간선의 개수)가 홀수인 정점이 없거나 2개이면 오일러 경로가 존재하며, 만약 차수가 홀수인 정점이 2개일 경우에는 반드시 홀수 정점에서 시작해야만 한다.&lt;br&gt;
+특히 홀수 정점이 0개인 경우에는 출발점과 도착점이 같은 오일러 경로가 되며, 이를 오일러 회로라고 한다.&lt;br&gt;
+이러한 규칙을 적용하면 그래프 (a)는 오일러 회로가 되지만, 그래프 (b)는 홀수 정점이 4개이므로 오일러 경로가 존재하지 않는다.&lt;/p&gt;
+&lt;h2&gt;예제 1.3&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;주어진 그래프는 각 도시간의 이동 거리를 나타낸다. 이때 서울에서 출발하여 부산까지 이동하는 가장 짧은 거리를 갖는 경로를 찾으시오.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;풀이&lt;/h2&gt;
+&lt;p&gt;하나의 출발점을 기준으로 다른 모든 정점(도시)으로의 최단 경로를 구하는 문제는 다익스트라(Dijkstra) 알고리즘으로 해결할 수 있다.&lt;br&gt;
+따라서 서울을 기준으로 부산까지의 최단 경로는 &apos;서울-천안-논산-대전-진주-부산&apos;이며, 최소거리는 39이다. 참고로, 모든 정점 쌍 간의 최단 경로, 즉 이 경우에는 임의의 두 도시간의 최단 경로를 찾는 문제는 플로이드(Floyd) 알고리즘을 적용한다.&lt;/p&gt;
+&lt;h1&gt;1.2 알고리즘 설계&lt;/h1&gt;
+&lt;h2&gt;[알고리즘 1.1] 순차탐색&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;SequentialSearch (A[], n, key)
+입력: A[0..n-1] : 입력 배열
+     n : 배열 크기(데이터 개수)
+     key : 탐색 키(찾으려는 값)
+출력: key가 배열 내에 존재하면 해당 인덱스, 아니면 n을 반환
+{
+  i = 0;
+  while (i &amp;lt; n &amp;amp;&amp;amp; A[i] != key)
+    i = i + 1;
+  return (i);
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;[알고리즘 1.2] 이진탐색&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;BinarySearch (A[], key, Left, Right)
+입력: A[Left..Right] : 입력 배열
+     key : 탐색 키
+출력: key가 A[]내에 존재하면 해당 인덱스, 아니면 -1을 반환
+{
+  if (Left &gt; Right) return (-1);
+  Mid = (Left + Right) / 2; // 소수점 버림(floor 연산)
+  if (A[Mid] == key) return (Mid);
+  else if (key &amp;lt; A[Mid]) BinarySearch(A, key, Left, Mid-1)
+    else BinarySearch(A, key, Mid+1, Right);
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;1.2.1 Greedy 방법&lt;/h2&gt;
+&lt;p&gt;욕심쟁이 방법은 일련의 선택 과정을 통해 해를 찾는데, 이때 전후 단계의 선택과는 상관없이 각 단계마다 정해진 기준에 따라 가장 최선이라고 여겨지는 &lt;strong&gt;국부적인(local) 최적해를 선택해 나가면 결과적으로 전체적인(global) 최적해를 구할 수 있을 것이라는 희망적인 전략&lt;/strong&gt;을 취하는 방법이다.&lt;br&gt;
+여기서 희망적이라는 표현은, 각 단계에서 전후 단계의 선택의 대해서는 아무런 고려없이 단지 현재 상태에서만 만족하는 최적해만을 선택하기 때문에 국부적인 최적해가 항상 전체적인 최적해를 만들지 못할 수도 있음을 의미한다.&lt;br&gt;
+이처럼 욕심쟁이 방법으로 해를 구할 수 없는 문제도 있으므로 적용 범위가 제한적이라는 한계를 갖지만, 어떤 문제에 욕심쟁이 방법이 적용가능하다면 최적해를 보장하는 효율적인 알고리즘을 아주 간단하게 만들 수 있는 강력한 설계기법임은 틀림없다.&lt;br&gt;
+이 방법은 가능한 여러 해 중에서 최솟값이나 최댓값을 찾는 최적해 문제의 해결에 주로 사용된다.&lt;/p&gt;
+&lt;p&gt;욕심쟁이 방법이 적용된 대표적인 알고리즘은 거스름돈 문제나 배낭 문제와 같이 비교적 간단한 것을 비롯하여 최소 신장 트리를 구하는 크루스칼 알고리즘과 프림 알고리즘, 그리고 단일 출발점에 대한 최단 경로를 구하는 데이크스트라 알고리즘 등이 있다.&lt;/p&gt;
+&lt;h2&gt;예제 1.4&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;거스름돈이 780원일 때 고객에게 돌려줄 동전의 최소 개수를 구하시오. 단, 사용할 수 있는 동전의 종류는 500원, 100원, 50원, 10원의 네 종류가 있다고 가정한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;풀이&lt;/h2&gt;
+&lt;p&gt;거스름돈 문제는 가게에서 고객에게 돌려줄 거스름돈이 T만큼 있을 때 고객이 받을 동전의 개수를 최소로 하면서 거스름돈을 돌려주는 방법을 찾는 문제이다.&lt;br&gt;
+욕심쟁이 방법을 적용한 거스름돈 문제의 해법은 거스름돈의 액수를 초과하지 않으면서 단순히 액면가가 큰 동전부터 &apos;욕심을 부려서&apos; 최대한 뽑아서 거스름돈을 만드는 것이다.&lt;/p&gt;
+&lt;p&gt;따라서 주어진 문제의 거스름돈 780원에 대해서는, 먼저 액면가가 가장 큰 500원짜리 동전을 최대한 뽑으면 하나가 되고, 남은 280원에 대하여 다음으로 액면가가 큰 100원짜리 동전을 최대한 2개 뽑는다.&lt;br&gt;
+마찬가지로 남은 80원에 대하여 50원짜리 1개와 10원짜리 3개를 차례대로 뽑는다. 그러면 최종적으로 얻은 동전의 개수는 500원짜리 1개, 100원짜리 2개, 50원짜리 1개, 10원짜리 3개로서 총 7개가 된다.&lt;/p&gt;
+&lt;h2&gt;예제 1.5&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;거스름돈이 650원인 거스름돈 문제의 최적해를 욕심쟁이 방법으로 구하시오. 단, 동전의 종류는 500원, 120원, 100원, 50원, 10원의 다섯 종류가 있다고 가정한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;풀이&lt;/h2&gt;
+&lt;p&gt;앞선 [예제 1.4]의 동전 종류 (500원, 100원, 50원, 10원)에 액면가가 120원인 동전이 더 있다고 가정한 경우이다. 거스름돈 650원에 대해서 욕심쟁이 방법을 적용하면, 650원에 대해서 500원짜리 동전 1개, 남은 150원에 대해서는 120원짜리 동전 1개, 그리고 남은 30원에 대해서 10원짜리 동전 3개를 고르면 결국 최소 동전의 개수는 5개이다.&lt;br&gt;
+욕심쟁이 방법을 적용한 거스름돈 문제의 해법은 거스름돈의 액수를 초과하지 않으면서 단순히 액면가가 큰 동전부터 &apos;욕심을 부려서&apos; 최대한 뽑아서 거스름돈을 만드는 것이다.&lt;/p&gt;
+&lt;p&gt;그런데 불행하게도 욕심쟁이 방법으로 구한 동전의 최소 개수, 즉 5개는 최적해가 아니다. 500원짜리 동전 1개, 100원짜리 동전 1개, 그리고 50원짜리 동전 1개를 고르면 최소 3개의 동전으로 650원을 만들 수 있다.&lt;br&gt;
+이와 같이 같은 거스름돈 문제라고 할지라도 동전의 액면가가 일반적인 경우에는 욕심쟁이 방법을 적용할 수는 없고 다른 방법을 통해서 최적해를 구해야 한다.&lt;/p&gt;
+&lt;h2&gt;예제 1.6&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;다음과 같은 조건의 배낭 문제에 대해 욕심쟁이 방법을 적용해서 최대 이익을 구하시오.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;배낭의 용량 M → 10&lt;/li&gt;
+&lt;li&gt;물체의 개수 n → 4&lt;/li&gt;
+&lt;li&gt;물체 1의 이익(p1)과 무게(w1) → 18, 3&lt;/li&gt;
+&lt;li&gt;물체 2의 이익(p2)과 무게(w2) → 15, 5&lt;/li&gt;
+&lt;li&gt;물체 3의 이익(p3)과 무게(w3) → 12, 3&lt;/li&gt;
+&lt;li&gt;물체 4의 이익(p4)과 무게(w4) → 25, 4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;풀이&lt;/h2&gt;
+&lt;p&gt;배낭문제에 대한 기본적인 아이디어는 배낭의 용량이 제한되어 있으므로 배낭의 용량을 가능한 한 조금 차지하면서도 이익이 많은 물체부터 배낭에 &lt;strong&gt;&apos;욕심을 부려서&apos;&lt;/strong&gt; 최대한 넣는 과정을 반복하면 된다.&lt;br&gt;
+만약 물체를 통째로 넣을 수 없는 경우라면 남은 배남의 용량에 맞게 물체를 쪼개서 넣으면 된다. 여기서 중요한 것은 각 단계의 선택기준, 즉 각 단계에서 어떤 물체를 넣을 것인가를 정하는 것이다. 물체를 쪼갤 수 있다고 가정했으므로 단순히 물체의 이익을 취하기보다는 단위 무게당 이익을 계산하고, 이것이 최대가 되는 물체부터 최대한 배낭에 넣으면 최적해를 구할 수 있다.&lt;br&gt;
+$x^2 + y^2 = z^2$&lt;br&gt;
+$$
+\sum_{i=1}^{n} i = \frac{n(n+1)}{2}
+$$&lt;/p&gt;</content:encoded></item><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/new-beginnings/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/new-beginnings/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
 right at the coast of the Semantics, a large language ocean. A small river named
@@ -328,7 +435,70 @@ chicken eggs, though the…]]></description><link>https://gatsbystarterblogsourc
 chicken eggs, though the taste and texture will be somewhat different, and the
 egg yolk will be less rich.&quot;?
 (&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;Yeah, I didn&apos;t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I'm sure I'll write a lot more interesting things in the future. Oh, and here's a…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
+&lt;p&gt;Yeah, I didn&apos;t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[github private]]></title><description><![CDATA[인터뷰할때..
+저장소 클론 안받아질때!
+참조: https://tmjb.tistory.com/83 또하나
+Next.js window객체가 없다고할때
+https://velog.io/@taese0ng/Next.js-window…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/github-private555/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/github-private555/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;인터뷰할때..
+저장소 클론 안받아질때!
+참조: &lt;a href=&quot;https://tmjb.tistory.com/83&quot;&gt;https://tmjb.tistory.com/83&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;또하나
+Next.js window객체가 없다고할때
+&lt;a href=&quot;https://velog.io/@taese0ng/Next.js-window%EA%B0%9D%EC%B2%B4%EA%B0%80-%EC%97%86%EB%8B%A4%EA%B3%A0%ED%95%A0%EB%95%8C&quot;&gt;https://velog.io/@taese0ng/Next.js-window객체가-없다고할때&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;무료도메인사용법
+&lt;a href=&quot;https://www.google.com/search?client=safari&amp;#x26;rls=en&amp;#x26;q=%EB%AC%B4%EB%A3%8C%EB%8F%84%EB%A9%94%EC%9D%B8&amp;#x26;ie=UTF-8&amp;#x26;oe=UTF-8#fpstate=ive&amp;#x26;vld=cid:0096fcca,vid:-MbyMN9dpPw,st:0&quot;&gt;https://www.google.com/search?client=safari&amp;#x26;rls=en&amp;#x26;q=%EB%AC%B4%EB%A3%8C%EB%8F%84%EB%A9%94%EC%9D%B8&amp;#x26;ie=UTF-8&amp;#x26;oe=UTF-8#fpstate=ive&amp;#x26;vld=cid:0096fcca,vid:-MbyMN9dpPw,st:0&lt;/a&gt;
+&lt;a href=&quot;https://%EB%82%B4%EB%8F%84%EB%A9%94%EC%9D%B8.%ED%95%9C%EA%B5%AD/page/domain_conf_view.php?id=2294892&quot;&gt;https://내도메인.한국/page/domain_conf_view.php?id=2294892&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;public리포 받고 push안될때
+아래와 같이 % vi ~/.ssh/config를 설정
+Host github-brlyle
+Hostname github.com
+User git
+IdentityFile ~/.ssh/brlyle.ww
+그담에 아래같이 치면됨. git config user.name같은거 필요없음
+git remote set-url origin git@github-brlyle:brlyle/brlyle.github.io.git&lt;/p&gt;
+&lt;p&gt;로컬에서 깃헙 여러유저 사용하기도 해야함&lt;/p&gt;
+&lt;p&gt;gmocoin-tools
+仮想通貨移動履歴の未確認検索
+decimal.js가 안됐었던 이유
+npm의 패키지로서 존재하지만 패키지가 업뎃되어서 동작하지 않게 되는것을 방지하기 위해
+정적파일로서 불러오기 위해서&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;/span&gt;
+&lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;text/javascript&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token attr-name&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;/static/js/decimal.js&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token script&quot;&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;script&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;이렇게 설정해두고 public에 저장해서 쓰면된다.
+nextjs/gmocoin-tools/public/static/js/decimal.js&lt;/p&gt;
+&lt;p&gt;gmocoin-tools
+仮想通貨移動履歴の未確認検索
+Goland의 Simplify가 알려준거임. 검증은 gpt한테. 아래와 같이 물어봤을때&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;if (inIndexFrom !== undefined &amp;amp;&amp;amp; inIndexFrom != null) {
+이거는 아래와 같이 바꿔도 문제없니?
+if (inIndexFrom != undefined) {&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;네, if (inIndexFrom !== undefined &amp;amp;&amp;amp; inIndexFrom != null)를 if (inIndexFrom != undefined)로 바꿔도 동일하게 작동합니다.
+
+차이점 설명
+!=와 ==는 느슨한 동등 연산자로, 두 값이 타입이 다르더라도 값이 같다고 판단하면 true를 반환합니다.
+!==와 ===는 엄격한 동등 연산자로, 타입이 다르면 false를 반환합니다.
+if (inIndexFrom != undefined)는 undefined와 null 모두를 포함하여 검사합니다. 이 구문은 inIndexFrom이 null이나 undefined가 아닐 경우에만 참입니다.
+
+정리
+if (inIndexFrom != undefined)는 inIndexFrom이 null이거나 undefined일 때를 모두 확인하기 때문에, 원래 코드와 동일하게 동작합니다.
+따라서 구문을 단순화하려는 경우 if (inIndexFrom != undefined)로 변경해도 무방합니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;gmocoin-tools
+仮想通貨移動履歴の未確認検索
+소소한 지식
+const안에서는 hook을 사용할 수 없다
+생성자 함수는 JavaScript에서 새로운 객체를 생성하고, 그 객체에 초기값을 설정하는 특별한 유형의 함수입니다.
+생성자 함수는 new 키워드와 함께 호출되어 새로운 객체를 생성하고, 그 객체에 초기값을 설정하는 역할을 합니다.
+this가 여기서 사용됨&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 생성자 함수 예시&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;name&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; age&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; name&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;age &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; age&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; person1 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Alice&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;person1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// { name: &quot;Alice&quot;, age: 30 }&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
 &lt;p&gt;I&apos;m sure I&apos;ll write a lot more interesting things in the future.&lt;/p&gt;
 &lt;p&gt;Oh, and here&apos;s a great quote from this Wikipedia on
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
@@ -827,70 +997,7 @@ __double underscores__&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;This paragraph has some &lt;code class=&quot;language-text&quot;&gt;code&lt;/code&gt; in it.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;This paragraph has some `code` in it.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;img src=&quot;https://via.placeholder.com/200x50&quot; alt=&quot;Alt Text&quot; title=&quot;Image Title&quot;&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![Alt Text](https://via.placeholder.com/200x50 &quot;Image Title&quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[github private]]></title><description><![CDATA[인터뷰할때..
-저장소 클론 안받아질때!
-참조: https://tmjb.tistory.com/83 또하나
-Next.js window객체가 없다고할때
-https://velog.io/@taese0ng/Next.js-window…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/github-private555/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/github-private555/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;인터뷰할때..
-저장소 클론 안받아질때!
-참조: &lt;a href=&quot;https://tmjb.tistory.com/83&quot;&gt;https://tmjb.tistory.com/83&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;또하나
-Next.js window객체가 없다고할때
-&lt;a href=&quot;https://velog.io/@taese0ng/Next.js-window%EA%B0%9D%EC%B2%B4%EA%B0%80-%EC%97%86%EB%8B%A4%EA%B3%A0%ED%95%A0%EB%95%8C&quot;&gt;https://velog.io/@taese0ng/Next.js-window객체가-없다고할때&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;무료도메인사용법
-&lt;a href=&quot;https://www.google.com/search?client=safari&amp;#x26;rls=en&amp;#x26;q=%EB%AC%B4%EB%A3%8C%EB%8F%84%EB%A9%94%EC%9D%B8&amp;#x26;ie=UTF-8&amp;#x26;oe=UTF-8#fpstate=ive&amp;#x26;vld=cid:0096fcca,vid:-MbyMN9dpPw,st:0&quot;&gt;https://www.google.com/search?client=safari&amp;#x26;rls=en&amp;#x26;q=%EB%AC%B4%EB%A3%8C%EB%8F%84%EB%A9%94%EC%9D%B8&amp;#x26;ie=UTF-8&amp;#x26;oe=UTF-8#fpstate=ive&amp;#x26;vld=cid:0096fcca,vid:-MbyMN9dpPw,st:0&lt;/a&gt;
-&lt;a href=&quot;https://%EB%82%B4%EB%8F%84%EB%A9%94%EC%9D%B8.%ED%95%9C%EA%B5%AD/page/domain_conf_view.php?id=2294892&quot;&gt;https://내도메인.한국/page/domain_conf_view.php?id=2294892&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;public리포 받고 push안될때
-아래와 같이 % vi ~/.ssh/config를 설정
-Host github-brlyle
-Hostname github.com
-User git
-IdentityFile ~/.ssh/brlyle.ww
-그담에 아래같이 치면됨. git config user.name같은거 필요없음
-git remote set-url origin git@github-brlyle:brlyle/brlyle.github.io.git&lt;/p&gt;
-&lt;p&gt;로컬에서 깃헙 여러유저 사용하기도 해야함&lt;/p&gt;
-&lt;p&gt;gmocoin-tools
-仮想通貨移動履歴の未確認検索
-decimal.js가 안됐었던 이유
-npm의 패키지로서 존재하지만 패키지가 업뎃되어서 동작하지 않게 되는것을 방지하기 위해
-정적파일로서 불러오기 위해서&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;/span&gt;
-&lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;text/javascript&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token attr-name&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;/static/js/decimal.js&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token script&quot;&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;script&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;이렇게 설정해두고 public에 저장해서 쓰면된다.
-nextjs/gmocoin-tools/public/static/js/decimal.js&lt;/p&gt;
-&lt;p&gt;gmocoin-tools
-仮想通貨移動履歴の未確認検索
-Goland의 Simplify가 알려준거임. 검증은 gpt한테. 아래와 같이 물어봤을때&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;if (inIndexFrom !== undefined &amp;amp;&amp;amp; inIndexFrom != null) {
-이거는 아래와 같이 바꿔도 문제없니?
-if (inIndexFrom != undefined) {&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;네, if (inIndexFrom !== undefined &amp;amp;&amp;amp; inIndexFrom != null)를 if (inIndexFrom != undefined)로 바꿔도 동일하게 작동합니다.
-
-차이점 설명
-!=와 ==는 느슨한 동등 연산자로, 두 값이 타입이 다르더라도 값이 같다고 판단하면 true를 반환합니다.
-!==와 ===는 엄격한 동등 연산자로, 타입이 다르면 false를 반환합니다.
-if (inIndexFrom != undefined)는 undefined와 null 모두를 포함하여 검사합니다. 이 구문은 inIndexFrom이 null이나 undefined가 아닐 경우에만 참입니다.
-
-정리
-if (inIndexFrom != undefined)는 inIndexFrom이 null이거나 undefined일 때를 모두 확인하기 때문에, 원래 코드와 동일하게 동작합니다.
-따라서 구문을 단순화하려는 경우 if (inIndexFrom != undefined)로 변경해도 무방합니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;gmocoin-tools
-仮想通貨移動履歴の未確認検索
-소소한 지식
-const안에서는 hook을 사용할 수 없다
-생성자 함수는 JavaScript에서 새로운 객체를 생성하고, 그 객체에 초기값을 설정하는 특별한 유형의 함수입니다.
-생성자 함수는 new 키워드와 함께 호출되어 새로운 객체를 생성하고, 그 객체에 초기값을 설정하는 역할을 합니다.
-this가 여기서 사용됨&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 생성자 함수 예시&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;name&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; age&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; name&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;age &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; age&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; person1 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Alice&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;person1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// { name: &quot;Alice&quot;, age: 30 }&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![Alt Text](https://via.placeholder.com/200x50 &quot;Image Title&quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I'm sure I'll write a lot more interesting things in the future. Oh, and here's a…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
 &lt;p&gt;I&apos;m sure I&apos;ll write a lot more interesting things in the future.&lt;/p&gt;
 &lt;p&gt;Oh, and here&apos;s a great quote from this Wikipedia on
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
