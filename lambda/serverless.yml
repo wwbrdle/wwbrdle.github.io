@@ -9,6 +9,8 @@ provider:
   stage: ${opt:stage, 'dev'}
   environment:
     DYNAMODB_TABLE: ${self:service}-${self:provider.stage}
+  # 태그 비활성화 (logs:TagResource 권한 없이 배포)
+  tags: {}
   iam:
     role:
       statements:
@@ -26,6 +28,8 @@ provider:
 functions:
   handler:
     handler: dynamodb-handler/index.handler
+    # 로그 그룹을 수동으로 관리 (태그 없이)
+    logRetentionInDays: 14
     events:
       - http:
           path: /api
@@ -51,6 +55,15 @@ resources:
         BillingMode: PAY_PER_REQUEST
         StreamSpecification:
           StreamViewType: NEW_AND_OLD_IMAGES
+    
+    # CloudWatch Logs 그룹을 태그 없이 수동 생성
+    # Serverless Framework의 자동 생성 대신 명시적으로 정의
+    HandlerLogGroup:
+      Type: AWS::Logs::LogGroup
+      DeletionPolicy: Retain
+      Properties:
+        LogGroupName: /aws/lambda/${self:service}-${self:provider.stage}-handler
+        RetentionInDays: 14
 
 plugins:
   - serverless-offline
