@@ -1,0 +1,65 @@
+name: Deploy Lambda Function
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'lambda/**'
+      - '.github/workflows/deploy-lambda.yml'
+  workflow_dispatch: # 수동 실행 가능
+
+jobs:
+  deploy:
+    name: Deploy to AWS Lambda
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          cache-dependency-path: lambda/package-lock.json
+
+      - name: Install Serverless Framework
+        run: npm install -g serverless@3
+
+      - name: Install Lambda dependencies
+        working-directory: ./lambda/dynamodb-handler
+        run: npm ci
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION || 'us-east-1' }}
+
+      - name: Deploy Lambda function
+        working-directory: ./lambda
+        run: |
+          serverless deploy --stage prod --verbose
+        env:
+          AWS_REGION: ${{ secrets.AWS_REGION || 'us-east-1' }}
+
+      - name: Get Lambda endpoint URL
+        id: get-endpoint
+        working-directory: ./lambda
+        run: |
+          ENDPOINT=$(serverless info --stage prod --verbose | grep -oP 'POST - \K[^\s]+' | head -1)
+          echo "endpoint=$ENDPOINT" >> $GITHUB_OUTPUT
+          echo "Lambda endpoint: $ENDPOINT"
+
+      - name: Output Lambda endpoint
+        run: |
+          echo "✅ Lambda function deployed successfully!"
+          echo "🔗 Endpoint URL: ${{ steps.get-endpoint.outputs.endpoint }}"
+          echo ""
+          echo "📝 Next steps:"
+          echo "1. Copy the endpoint URL above"
+          echo "2. Add it to your .env.production file as GATSBY_LAMBDA_ENDPOINT"
+
