@@ -25,6 +25,29 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <Bio />
+      <div style={{ marginBottom: "2rem", padding: "1rem", backgroundColor: "#f5f5f5", borderRadius: "8px" }}>
+        <h3 style={{ marginTop: 0 }}>🔗 예제 페이지</h3>
+        <p style={{ marginBottom: "0.5rem" }}>
+          AWS Lambda와 DynamoDB 통합 예제를 확인해보세요.
+        </p>
+        <Link
+          to="/lambda-example/"
+          style={{
+            display: "inline-block",
+            padding: "0.75rem 1.5rem",
+            backgroundColor: "#007acc",
+            color: "white",
+            textDecoration: "none",
+            borderRadius: "4px",
+            fontWeight: "bold",
+            transition: "background-color 0.2s",
+          }}
+          onMouseOver={(e) => (e.target.style.backgroundColor = "#005a9e")}
+          onMouseOut={(e) => (e.target.style.backgroundColor = "#007acc")}
+        >
+          Lambda 예제 보기 →
+        </Link>
+      </div>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
