@@ -1,0 +1,17 @@
+{
+  "name": "lambda-functions",
+  "version": "1.0.0",
+  "description": "AWS Lambda functions for DynamoDB integration",
+  "scripts": {
+    "deploy": "serverless deploy",
+    "deploy:prod": "serverless deploy --stage prod",
+    "remove": "serverless remove",
+    "offline": "serverless offline"
+  },
+  "devDependencies": {
+    "serverless-offline": "^13.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
+

@@ -1,0 +1,73 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: DynamoDB Handler Lambda Function
+
+Parameters:
+  TableName:
+    Type: String
+    Default: UserData
+    Description: DynamoDB table name
+
+Globals:
+  Function:
+    Timeout: 10
+    MemorySize: 256
+    Runtime: nodejs18.x
+
+Resources:
+  DynamoDBTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Ref TableName
+      AttributeDefinitions:
+        - AttributeName: id
+          AttributeType: S
+      KeySchema:
+        - AttributeName: id
+          KeyType: HASH
+      BillingMode: PAY_PER_REQUEST
+
+  DynamoDBHandlerFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: dynamodb-handler
+      CodeUri: dynamodb-handler/
+      Handler: index.handler
+      Runtime: nodejs18.x
+      Environment:
+        Variables:
+          DYNAMODB_TABLE: !Ref DynamoDBTable
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: !Ref DynamoDBTable
+      Events:
+        Api:
+          Type: Api
+          Properties:
+            Path: /api
+            Method: post
+            RestApiId: !Ref DynamoDBHandlerApi
+        ApiOptions:
+          Type: Api
+          Properties:
+            Path: /api
+            Method: options
+            RestApiId: !Ref DynamoDBHandlerApi
+
+  DynamoDBHandlerApi:
+    Type: AWS::Serverless::Api
+    Properties:
+      StageName: prod
+      Cors:
+        AllowMethods: "'POST,OPTIONS'"
+        AllowHeaders: "'Content-Type'"
+        AllowOrigin: "'*'"
+
+Outputs:
+  DynamoDBHandlerApi:
+    Description: API Gateway endpoint URL
+    Value: !Sub 'https://${DynamoDBHandlerApi}.execute-api.${AWS::Region}.amazonaws.com/prod/api'
+  DynamoDBTable:
+    Description: DynamoDB Table Name
+    Value: !Ref DynamoDBTable
+
