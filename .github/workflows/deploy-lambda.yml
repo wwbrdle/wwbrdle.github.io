@@ -26,9 +26,13 @@ jobs:
       - name: Install Serverless Framework
         run: npm install -g serverless@3
 
-      - name: Install Lambda dependencies
+      - name: Install Lambda handler dependencies
         working-directory: ./lambda/dynamodb-handler
         run: npm install --production
+
+      - name: Install Serverless plugins
+        working-directory: ./lambda
+        run: npm install
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
