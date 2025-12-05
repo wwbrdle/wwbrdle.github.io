@@ -30,23 +30,42 @@ const BlogIndex = ({ data, location }) => {
         <p style={{ marginBottom: "0.5rem" }}>
           AWS Lambda와 DynamoDB 통합 예제를 확인해보세요.
         </p>
-        <Link
-          to="/lambda-example/"
-          style={{
-            display: "inline-block",
-            padding: "0.75rem 1.5rem",
-            backgroundColor: "#007acc",
-            color: "white",
-            textDecoration: "none",
-            borderRadius: "4px",
-            fontWeight: "bold",
-            transition: "background-color 0.2s",
-          }}
-          onMouseOver={(e) => (e.target.style.backgroundColor = "#005a9e")}
-          onMouseOut={(e) => (e.target.style.backgroundColor = "#007acc")}
-        >
-          Lambda 예제 보기 →
-        </Link>
+        <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap" }}>
+          <Link
+            to="/lambda-example/"
+            style={{
+              display: "inline-block",
+              padding: "0.75rem 1.5rem",
+              backgroundColor: "#007acc",
+              color: "white",
+              textDecoration: "none",
+              borderRadius: "4px",
+              fontWeight: "bold",
+              transition: "background-color 0.2s",
+            }}
+            onMouseOver={(e) => (e.target.style.backgroundColor = "#005a9e")}
+            onMouseOut={(e) => (e.target.style.backgroundColor = "#007acc")}
+          >
+            Lambda 예제 보기 →
+          </Link>
+          <Link
+            to="/dynamodb-data/"
+            style={{
+              display: "inline-block",
+              padding: "0.75rem 1.5rem",
+              backgroundColor: "#28a745",
+              color: "white",
+              textDecoration: "none",
+              borderRadius: "4px",
+              fontWeight: "bold",
+              transition: "background-color 0.2s",
+            }}
+            onMouseOver={(e) => (e.target.style.backgroundColor = "#218838")}
+            onMouseOut={(e) => (e.target.style.backgroundColor = "#28a745")}
+          >
+            저장된 데이터 보기 →
+          </Link>
+        </div>
       </div>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {

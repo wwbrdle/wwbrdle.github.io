@@ -47,6 +47,9 @@ exports.handler = async (event) => {
       case "getData":
         return await getFromDynamoDB(data, headers)
 
+      case "getAllData":
+        return await getAllFromDynamoDB(headers)
+
       default:
         return {
           statusCode: 400,
@@ -164,6 +167,47 @@ async function getFromDynamoDB(data, headers) {
     }
   } catch (error) {
     console.error("Error getting from DynamoDB:", error)
+    return {
+      statusCode: 500,
+      headers,
+      body: JSON.stringify({
+        error: "Failed to get data",
+        message: error.message,
+      }),
+    }
+  }
+}
+
+/**
+ * DynamoDB에서 모든 데이터 조회
+ */
+async function getAllFromDynamoDB(headers) {
+  try {
+    const params = {
+      TableName: TABLE_NAME,
+    }
+
+    const result = await dynamodb.scan(params).promise()
+
+    // 최신순으로 정렬 (timestamp 기준)
+    const items = result.Items || []
+    items.sort((a, b) => {
+      const timeA = new Date(a.timestamp || a.createdAt || 0).getTime()
+      const timeB = new Date(b.timestamp || b.createdAt || 0).getTime()
+      return timeB - timeA // 최신순
+    })
+
+    return {
+      statusCode: 200,
+      headers,
+      body: JSON.stringify({
+        success: true,
+        count: items.length,
+        data: items,
+      }),
+    }
+  } catch (error) {
+    console.error("Error getting all data from DynamoDB:", error)
     return {
       statusCode: 500,
       headers,
