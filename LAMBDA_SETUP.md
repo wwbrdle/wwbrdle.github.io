@@ -120,3 +120,4 @@ AWS 콘솔에서 DynamoDB 서비스로 이동하여 테이블이 생성되었는
 - [Serverless Framework 문서](https://www.serverless.com/framework/docs)
 - [Gatsby 환경 변수](https://www.gatsbyjs.com/docs/how-to/local-development/environment-variables/)
 
+

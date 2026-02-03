@@ -71,3 +71,4 @@ Outputs:
     Description: DynamoDB Table Name
     Value: !Ref DynamoDBTable
 
+

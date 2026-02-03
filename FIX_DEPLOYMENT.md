@@ -18,7 +18,7 @@ AWS 콘솔에서:
 
 또는 AWS CLI:
 ```bash
-aws cloudformation delete-stack --stack-name dynamodb-handler-prod --region us-east-1
+aws cloudformation delete-stack --stack-name dynamodb-handler-prod --region ap-northeast-2
 ```
 
 #### 2단계: LogGroup 삭제
@@ -31,7 +31,7 @@ AWS 콘솔에서:
 
 또는 AWS CLI:
 ```bash
-aws logs delete-log-group --log-group-name /aws/lambda/dynamodb-handler-prod-handler --region us-east-1
+aws logs delete-log-group --log-group-name /aws/lambda/dynamodb-handler-prod-handler --region ap-northeast-2
 ```
 
 #### 3단계: 재배포
@@ -60,10 +60,10 @@ serverless deploy --stage prod
 
 ```bash
 # CloudFormation 스택 확인
-aws cloudformation describe-stacks --stack-name dynamodb-handler-prod --region us-east-1
+aws cloudformation describe-stacks --stack-name dynamodb-handler-prod --region ap-northeast-2
 
 # LogGroup 확인
-aws logs describe-log-groups --log-group-name-prefix /aws/lambda/dynamodb-handler-prod --region us-east-1
+aws logs describe-log-groups --log-group-name-prefix /aws/lambda/dynamodb-handler-prod --region ap-northeast-2
 ```
 
 결과가 "does not exist" 또는 빈 배열이면 삭제 완료입니다.
@@ -73,4 +73,5 @@ aws logs describe-log-groups --log-group-name-prefix /aws/lambda/dynamodb-handle
 1. ✅ CloudFormation 스택 삭제
 2. ✅ LogGroup 삭제
 3. ✅ GitHub Actions 재실행
+
 

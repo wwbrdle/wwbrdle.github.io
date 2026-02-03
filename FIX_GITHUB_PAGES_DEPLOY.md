@@ -73,3 +73,4 @@ Repository Settings 방법이 작동하지 않는 경우:
 2. Personal Access Token의 `repo` 권한 확인
 3. 워크플로우 파일의 `github_token` 설정 확인
 
+

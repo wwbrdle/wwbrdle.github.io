@@ -4,8 +4,8 @@
 
 Lambda 함수가 성공적으로 배포되었습니다!
 
-- **Lambda ARN**: `arn:aws:lambda:us-east-1:975050152113:function:dynamodb-handler-prod-handler`
-- **API Gateway 엔드포인트**: `https://rilfgfgxfa.execute-api.us-east-1.amazonaws.com/prod/api`
+- **Lambda ARN**: `arn:aws:lambda:ap-northeast-2:ACCOUNT_ID:function:dynamodb-handler-prod-handler`
+- **API Gateway 엔드포인트**: `https://xxxxx.execute-api.ap-northeast-2.amazonaws.com/prod/api`
 
 ## 다음 단계
 
@@ -15,7 +15,7 @@ Lambda 함수가 성공적으로 배포되었습니다!
 2. **New repository secret** 클릭
 3. 다음 정보 입력:
    - **Name**: `GATSBY_LAMBDA_ENDPOINT`
-   - **Value**: `https://rilfgfgxfa.execute-api.us-east-1.amazonaws.com/prod/api`
+   - **Value**: `https://xxxxx.execute-api.ap-northeast-2.amazonaws.com/prod/api`
 4. **Add secret** 클릭
 
 ### 2. Gatsby 사이트 재배포
@@ -83,4 +83,5 @@ const headers = {
 - [ ] Gatsby 사이트 재배포
 - [ ] `/lambda-example` 페이지 테스트
 - [ ] DynamoDB에 데이터 저장 확인
+
 

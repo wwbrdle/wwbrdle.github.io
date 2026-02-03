@@ -17,7 +17,7 @@
 ### 방법 2: AWS CLI로 삭제
 
 ```bash
-aws logs delete-log-group --log-group-name /aws/lambda/dynamodb-handler-prod-handler --region us-east-1
+aws logs delete-log-group --log-group-name /aws/lambda/dynamodb-handler-prod-handler --region ap-northeast-2
 ```
 
 ### 방법 3: IAM 권한 추가 후 재배포
@@ -42,7 +42,7 @@ IAM 사용자에 다음 권한 추가:
 LogGroup이 삭제되었는지 확인:
 
 ```bash
-aws logs describe-log-groups --log-group-name-prefix /aws/lambda/dynamodb-handler-prod --region us-east-1
+aws logs describe-log-groups --log-group-name-prefix /aws/lambda/dynamodb-handler-prod --region ap-northeast-2
 ```
 
 결과가 비어있으면 삭제 완료입니다.
@@ -52,4 +52,5 @@ aws logs describe-log-groups --log-group-name-prefix /aws/lambda/dynamodb-handle
 1. LogGroup 삭제 완료
 2. IAM 권한 업데이트 (logs:DeleteLogGroup 포함)
 3. GitHub Actions 재실행
+
 

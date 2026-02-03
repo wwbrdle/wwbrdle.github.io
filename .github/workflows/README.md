@@ -14,7 +14,7 @@ Lambda 함수를 AWS에 자동 배포합니다.
 **필요한 GitHub Secrets:**
 - `AWS_ACCESS_KEY_ID`: AWS 액세스 키 ID
 - `AWS_SECRET_ACCESS_KEY`: AWS 시크릿 액세스 키
-- `AWS_REGION`: AWS 리전 (기본값: us-east-1)
+- `AWS_REGION`: AWS 리전 (기본값: ap-northeast-2)
 
 ### 2. `deploy-gatsby.yml`
 Gatsby 사이트를 GitHub Pages에 자동 배포합니다.
@@ -38,8 +38,8 @@ Repository → Settings → Secrets and variables → Actions → New repository
 ```
 AWS_ACCESS_KEY_ID=your_access_key_id
 AWS_SECRET_ACCESS_KEY=your_secret_access_key
-AWS_REGION=us-east-1
-GATSBY_LAMBDA_ENDPOINT=https://your-lambda-url.execute-api.us-east-1.amazonaws.com/prod/api
+AWS_REGION=ap-northeast-2
+GATSBY_LAMBDA_ENDPOINT=https://your-lambda-url.execute-api.ap-northeast-2.amazonaws.com/prod/api
 ```
 
 ### 2. Lambda 함수 배포
@@ -69,4 +69,5 @@ GATSBY_LAMBDA_ENDPOINT=https://your-lambda-url.execute-api.us-east-1.amazonaws.c
 ### Gatsby 빌드 실패
 - 환경 변수가 올바르게 설정되었는지 확인
 - `npm ci`가 실패하면 `package-lock.json` 확인
+
 

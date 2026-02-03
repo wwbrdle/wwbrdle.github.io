@@ -199,3 +199,4 @@ const DynamoDBData = ({ location }) => {
 
 export default DynamoDBData
 
+
