@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 05 Dec 2025 17:58:53 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[다양한 수학 공식 예시 1. 기본 연산과 인라인 수식 인라인 수식: $a^2 + b^2 = c^2$ (피타고라스 정리) 인라인 벡터: $\vec{v} = (v_1, v_2, v_3)$ 2. 블록 수식 합계 (Summation…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/algorithms/latex/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/algorithms/latex/</guid><content:encoded>&lt;h1&gt;다양한 수학 공식 예시&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 03 Feb 2026 22:31:11 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[다양한 수학 공식 예시 1. 기본 연산과 인라인 수식 인라인 수식: $a^2 + b^2 = c^2$ (피타고라스 정리) 인라인 벡터: $\vec{v} = (v_1, v_2, v_3)$ 2. 블록 수식 합계 (Summation…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/algorithms/latex/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/algorithms/latex/</guid><content:encoded>&lt;h1&gt;다양한 수학 공식 예시&lt;/h1&gt;
 &lt;h2&gt;1. 기본 연산과 인라인 수식&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;인라인 수식: $a^2 + b^2 = c^2$ (피타고라스 정리)&lt;/li&gt;
@@ -878,7 +878,70 @@ __double underscores__&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;This paragraph has some &lt;code class=&quot;language-text&quot;&gt;code&lt;/code&gt; in it.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;This paragraph has some `code` in it.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;img src=&quot;https://via.placeholder.com/200x50&quot; alt=&quot;Alt Text&quot; title=&quot;Image Title&quot;&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![Alt Text](https://via.placeholder.com/200x50 &quot;Image Title&quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I'm sure I'll write a lot more interesting things in the future. Oh, and here's a…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![Alt Text](https://via.placeholder.com/200x50 &quot;Image Title&quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[github private]]></title><description><![CDATA[인터뷰할때..
+저장소 클론 안받아질때!
+참조: https://tmjb.tistory.com/83 또하나
+Next.js window객체가 없다고할때
+https://velog.io/@taese0ng/Next.js-window…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/github-private555/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/github-private555/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;인터뷰할때..
+저장소 클론 안받아질때!
+참조: &lt;a href=&quot;https://tmjb.tistory.com/83&quot;&gt;https://tmjb.tistory.com/83&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;또하나
+Next.js window객체가 없다고할때
+&lt;a href=&quot;https://velog.io/@taese0ng/Next.js-window%EA%B0%9D%EC%B2%B4%EA%B0%80-%EC%97%86%EB%8B%A4%EA%B3%A0%ED%95%A0%EB%95%8C&quot;&gt;https://velog.io/@taese0ng/Next.js-window객체가-없다고할때&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;무료도메인사용법
+&lt;a href=&quot;https://www.google.com/search?client=safari&amp;#x26;rls=en&amp;#x26;q=%EB%AC%B4%EB%A3%8C%EB%8F%84%EB%A9%94%EC%9D%B8&amp;#x26;ie=UTF-8&amp;#x26;oe=UTF-8#fpstate=ive&amp;#x26;vld=cid:0096fcca,vid:-MbyMN9dpPw,st:0&quot;&gt;https://www.google.com/search?client=safari&amp;#x26;rls=en&amp;#x26;q=%EB%AC%B4%EB%A3%8C%EB%8F%84%EB%A9%94%EC%9D%B8&amp;#x26;ie=UTF-8&amp;#x26;oe=UTF-8#fpstate=ive&amp;#x26;vld=cid:0096fcca,vid:-MbyMN9dpPw,st:0&lt;/a&gt;
+&lt;a href=&quot;https://%EB%82%B4%EB%8F%84%EB%A9%94%EC%9D%B8.%ED%95%9C%EA%B5%AD/page/domain_conf_view.php?id=2294892&quot;&gt;https://내도메인.한국/page/domain_conf_view.php?id=2294892&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;public리포 받고 push안될때
+아래와 같이 % vi ~/.ssh/config를 설정
+Host github-brlyle
+Hostname github.com
+User git
+IdentityFile ~/.ssh/brlyle.ww
+그담에 아래같이 치면됨. git config user.name같은거 필요없음
+git remote set-url origin git@github-brlyle:brlyle/brlyle.github.io.git&lt;/p&gt;
+&lt;p&gt;로컬에서 깃헙 여러유저 사용하기도 해야함&lt;/p&gt;
+&lt;p&gt;gmocoin-tools
+仮想通貨移動履歴の未確認検索
+decimal.js가 안됐었던 이유
+npm의 패키지로서 존재하지만 패키지가 업뎃되어서 동작하지 않게 되는것을 방지하기 위해
+정적파일로서 불러오기 위해서&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;/span&gt;
+&lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;text/javascript&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token attr-name&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;/static/js/decimal.js&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token script&quot;&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;script&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;이렇게 설정해두고 public에 저장해서 쓰면된다.
+nextjs/gmocoin-tools/public/static/js/decimal.js&lt;/p&gt;
+&lt;p&gt;gmocoin-tools
+仮想通貨移動履歴の未確認検索
+Goland의 Simplify가 알려준거임. 검증은 gpt한테. 아래와 같이 물어봤을때&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;if (inIndexFrom !== undefined &amp;amp;&amp;amp; inIndexFrom != null) {
+이거는 아래와 같이 바꿔도 문제없니?
+if (inIndexFrom != undefined) {&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;네, if (inIndexFrom !== undefined &amp;amp;&amp;amp; inIndexFrom != null)를 if (inIndexFrom != undefined)로 바꿔도 동일하게 작동합니다.
+
+차이점 설명
+!=와 ==는 느슨한 동등 연산자로, 두 값이 타입이 다르더라도 값이 같다고 판단하면 true를 반환합니다.
+!==와 ===는 엄격한 동등 연산자로, 타입이 다르면 false를 반환합니다.
+if (inIndexFrom != undefined)는 undefined와 null 모두를 포함하여 검사합니다. 이 구문은 inIndexFrom이 null이나 undefined가 아닐 경우에만 참입니다.
+
+정리
+if (inIndexFrom != undefined)는 inIndexFrom이 null이거나 undefined일 때를 모두 확인하기 때문에, 원래 코드와 동일하게 동작합니다.
+따라서 구문을 단순화하려는 경우 if (inIndexFrom != undefined)로 변경해도 무방합니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;gmocoin-tools
+仮想通貨移動履歴の未確認検索
+소소한 지식
+const안에서는 hook을 사용할 수 없다
+생성자 함수는 JavaScript에서 새로운 객체를 생성하고, 그 객체에 초기값을 설정하는 특별한 유형의 함수입니다.
+생성자 함수는 new 키워드와 함께 호출되어 새로운 객체를 생성하고, 그 객체에 초기값을 설정하는 역할을 합니다.
+this가 여기서 사용됨&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 생성자 함수 예시&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;name&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; age&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; name&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;age &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; age&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; person1 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Alice&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;person1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// { name: &quot;Alice&quot;, age: 30 }&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
 &lt;p&gt;I&apos;m sure I&apos;ll write a lot more interesting things in the future.&lt;/p&gt;
 &lt;p&gt;Oh, and here&apos;s a great quote from this Wikipedia on
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
@@ -1096,70 +1159,7 @@ __double underscores__&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;This paragraph has some &lt;code class=&quot;language-text&quot;&gt;code&lt;/code&gt; in it.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;This paragraph has some `code` in it.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;img src=&quot;https://via.placeholder.com/200x50&quot; alt=&quot;Alt Text&quot; title=&quot;Image Title&quot;&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![Alt Text](https://via.placeholder.com/200x50 &quot;Image Title&quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[github private]]></title><description><![CDATA[인터뷰할때..
-저장소 클론 안받아질때!
-참조: https://tmjb.tistory.com/83 또하나
-Next.js window객체가 없다고할때
-https://velog.io/@taese0ng/Next.js-window…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/github-private555/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/github-private555/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;인터뷰할때..
-저장소 클론 안받아질때!
-참조: &lt;a href=&quot;https://tmjb.tistory.com/83&quot;&gt;https://tmjb.tistory.com/83&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;또하나
-Next.js window객체가 없다고할때
-&lt;a href=&quot;https://velog.io/@taese0ng/Next.js-window%EA%B0%9D%EC%B2%B4%EA%B0%80-%EC%97%86%EB%8B%A4%EA%B3%A0%ED%95%A0%EB%95%8C&quot;&gt;https://velog.io/@taese0ng/Next.js-window객체가-없다고할때&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;무료도메인사용법
-&lt;a href=&quot;https://www.google.com/search?client=safari&amp;#x26;rls=en&amp;#x26;q=%EB%AC%B4%EB%A3%8C%EB%8F%84%EB%A9%94%EC%9D%B8&amp;#x26;ie=UTF-8&amp;#x26;oe=UTF-8#fpstate=ive&amp;#x26;vld=cid:0096fcca,vid:-MbyMN9dpPw,st:0&quot;&gt;https://www.google.com/search?client=safari&amp;#x26;rls=en&amp;#x26;q=%EB%AC%B4%EB%A3%8C%EB%8F%84%EB%A9%94%EC%9D%B8&amp;#x26;ie=UTF-8&amp;#x26;oe=UTF-8#fpstate=ive&amp;#x26;vld=cid:0096fcca,vid:-MbyMN9dpPw,st:0&lt;/a&gt;
-&lt;a href=&quot;https://%EB%82%B4%EB%8F%84%EB%A9%94%EC%9D%B8.%ED%95%9C%EA%B5%AD/page/domain_conf_view.php?id=2294892&quot;&gt;https://내도메인.한국/page/domain_conf_view.php?id=2294892&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;public리포 받고 push안될때
-아래와 같이 % vi ~/.ssh/config를 설정
-Host github-brlyle
-Hostname github.com
-User git
-IdentityFile ~/.ssh/brlyle.ww
-그담에 아래같이 치면됨. git config user.name같은거 필요없음
-git remote set-url origin git@github-brlyle:brlyle/brlyle.github.io.git&lt;/p&gt;
-&lt;p&gt;로컬에서 깃헙 여러유저 사용하기도 해야함&lt;/p&gt;
-&lt;p&gt;gmocoin-tools
-仮想通貨移動履歴の未確認検索
-decimal.js가 안됐었던 이유
-npm의 패키지로서 존재하지만 패키지가 업뎃되어서 동작하지 않게 되는것을 방지하기 위해
-정적파일로서 불러오기 위해서&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;/span&gt;
-&lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;text/javascript&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token attr-name&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;/static/js/decimal.js&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token script&quot;&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;script&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;이렇게 설정해두고 public에 저장해서 쓰면된다.
-nextjs/gmocoin-tools/public/static/js/decimal.js&lt;/p&gt;
-&lt;p&gt;gmocoin-tools
-仮想通貨移動履歴の未確認検索
-Goland의 Simplify가 알려준거임. 검증은 gpt한테. 아래와 같이 물어봤을때&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;if (inIndexFrom !== undefined &amp;amp;&amp;amp; inIndexFrom != null) {
-이거는 아래와 같이 바꿔도 문제없니?
-if (inIndexFrom != undefined) {&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;네, if (inIndexFrom !== undefined &amp;amp;&amp;amp; inIndexFrom != null)를 if (inIndexFrom != undefined)로 바꿔도 동일하게 작동합니다.
-
-차이점 설명
-!=와 ==는 느슨한 동등 연산자로, 두 값이 타입이 다르더라도 값이 같다고 판단하면 true를 반환합니다.
-!==와 ===는 엄격한 동등 연산자로, 타입이 다르면 false를 반환합니다.
-if (inIndexFrom != undefined)는 undefined와 null 모두를 포함하여 검사합니다. 이 구문은 inIndexFrom이 null이나 undefined가 아닐 경우에만 참입니다.
-
-정리
-if (inIndexFrom != undefined)는 inIndexFrom이 null이거나 undefined일 때를 모두 확인하기 때문에, 원래 코드와 동일하게 동작합니다.
-따라서 구문을 단순화하려는 경우 if (inIndexFrom != undefined)로 변경해도 무방합니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;gmocoin-tools
-仮想通貨移動履歴の未確認検索
-소소한 지식
-const안에서는 hook을 사용할 수 없다
-생성자 함수는 JavaScript에서 새로운 객체를 생성하고, 그 객체에 초기값을 설정하는 특별한 유형의 함수입니다.
-생성자 함수는 new 키워드와 함께 호출되어 새로운 객체를 생성하고, 그 객체에 초기값을 설정하는 역할을 합니다.
-this가 여기서 사용됨&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 생성자 함수 예시&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;name&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; age&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; name&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;age &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; age&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; person1 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Alice&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;person1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// { name: &quot;Alice&quot;, age: 30 }&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![Alt Text](https://via.placeholder.com/200x50 &quot;Image Title&quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I'm sure I'll write a lot more interesting things in the future. Oh, and here's a…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
 &lt;p&gt;I&apos;m sure I&apos;ll write a lot more interesting things in the future.&lt;/p&gt;
 &lt;p&gt;Oh, and here&apos;s a great quote from this Wikipedia on
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
